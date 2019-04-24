@@ -26,7 +26,7 @@ function concertThis() {
     axios.get(queryUrl).then(
         function (response) {
             let results = response.data;
-            console.log(results);
+            //console.log(results);
             if (results) {
                 for (i = 0; i < results.length; i++) {
 
